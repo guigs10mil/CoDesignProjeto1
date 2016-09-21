@@ -1,11 +1,17 @@
 .profile {
 
     background: linear-gradient(
-      rgba(00, 00, 00, 0.5),
-      rgba(00, 00, 00, 0.5), 
-      rgba(00, 00, 00, 0.5), 
-      rgba(255, 255, 255, 0.7)
-    ), url(../Fotos/ponte.jpg); 
+      rgba(00, 00, 00, 0.0),
+      rgba(00, 00, 00, 0.0), 
+      rgba(00, 00, 00, 0.0),
+      rgba(00, 00, 00, 0.0),
+      rgba(00, 00, 00, 0.0), 
+      rgba(00, 00, 00, 0.0), 
+      rgba(255, 255, 255, 0.1), 
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.9)
+    ), url(../Fotos/mountain.jpg); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -26,16 +32,16 @@
 }
 
 .parallax img {
-  display: none;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 50%;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 50%;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
 }
 
 .white-text {
@@ -82,6 +88,16 @@
     background-color: #EAC67A !important;
 }
 
+.all-margin-100 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.all-padding-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .bottom-margin-40 {
     margin-bottom: 40px;
 }
@@ -90,25 +106,152 @@
     margin-top: 40px;
 }
 
-#owl-demo .item{
-  background: #3fbf79;
-  padding: 30px 0px;
-  margin: 10px;
-  color: #FFF;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  text-align: center;
+.padding-40 {
+    padding-left: 40px;
+    padding-right: 40px;
 }
-.customNavigation{
-  text-align: center;
+
+.top-padding-40 {
+    padding-top: 40px;
 }
-//use styles below to disable ugly selection
-.customNavigation a{
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+.top-padding-20 {
+    padding-top: 20px;
+}
+
+.bottom-padding-20 {
+    padding-bottom: 20px;
+}
+
+.backdestaque-1 {
+    background: linear-gradient(
+      rgba(00, 00, 00, 0.2),
+      rgba(00, 00, 00, 0.2), 
+      rgba(00, 00, 00, 0.2) 
+    ), url(../Fotos/destaques/software.png); 
+    background-size: cover; 
+    background-position: center;
+
+}
+
+.backdestaque-2 {
+    background: linear-gradient(
+      rgba(00, 00, 00, 0.2),
+      rgba(00, 00, 00, 0.2), 
+      rgba(00, 00, 00, 0.2) 
+    ), url(../Fotos/destaques/hardware.png); 
+    background-size: cover; 
+    background-position: center;
+
+}
+
+.backdestaque-3 {
+    background: linear-gradient(
+      rgba(00, 00, 00, 0.2),
+      rgba(00, 00, 00, 0.2), 
+      rgba(00, 00, 00, 0.2) 
+    ), url(../Fotos/destaques/modelagem.png); 
+    background-size: cover; 
+    background-position: center;
+
+}
+
+.backdestaque-4 {
+    background: linear-gradient(
+      rgba(00, 00, 00, 0.2),
+      rgba(00, 00, 00, 0.2), 
+      rgba(00, 00, 00, 0.2) 
+    ), url(../Fotos/destaques/conceituais.png); 
+    background-size: cover; 
+    background-position: center;
+
+}
+
+.cardProject1 {
+
+    background: linear-gradient(
+      rgba(00, 00, 00, 0.3),
+      rgba(00, 00, 00, 0.5), 
+      rgba(00, 00, 00, 0.3)),
+      url(../Fotos/destaques/software.png);
+    background-size: cover; 
+    background-position: center;
+}
+
+.cardProject2 {
+
+    background: linear-gradient(
+      rgba(00, 00, 00, 0.3),
+      rgba(00, 00, 00, 0.5), 
+      rgba(00, 00, 00, 0.3)),
+      url(../Fotos/destaques/hardware.png);
+    background-size: cover; 
+    background-position: center
+}
+
+.cardProject3 {
+
+    background: linear-gradient(
+      rgba(00, 00, 00, 0.3),
+      rgba(00, 00, 00, 0.5), 
+      rgba(00, 00, 00, 0.3)),
+      url(../Fotos/destaques/modelagem.png);
+    background-size: cover; 
+    background-position: center
+}
+
+.cardProject4 {
+
+    background: linear-gradient(
+      rgba(00, 00, 00, 0.3),
+      rgba(00, 00, 00, 0.5), 
+      rgba(00, 00, 00, 0.3)),
+      url(../Fotos/destaques/conceituais.png);
+    background-size: cover; 
+    background-position: center
+}
+
+.cardP {
+    height: 200px;
+}
+/*
+.cardContent {
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 200px;
+}*/
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 250px;
+}
+
+.col.s6.m4 {
+    padding: 0.75rem 0.75rem;
+}
+
+.textP {
+    font-weight: 400;
+}
+
+.sidePad {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.imgWhite {
+  color: #FFFFFF;
 }
